@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
     Uint64 click_delay_last = SDL_GetTicks64();
     Uint64 last_click = click_delay_last;
 
-    // setup the send input struct shit
+    // setup the send input struct
     INPUT inputs[2] = {};
     ZeroMemory(inputs, sizeof(inputs));
 
@@ -122,4 +122,5 @@ int main(int argc, char *argv[]) {
     SDL_Quit();
 
     return 0;
+
 }
